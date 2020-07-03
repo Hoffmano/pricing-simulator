@@ -1,0 +1,140 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #282b2e;
+	color: aliceblue;
+}
+
+#general {
+	/* background-color: #ffffff; */
+	display: block;
+}
+
+#main_row {
+	height: 100vh;
+}
+
+#profile_image {
+	display: block;
+	max-width: 91.5%;
+	/* background-color: #d1ff86; */
+	/* border: 1px solid #000000; */
+	margin-top: 1vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#name {
+	/* background-color: #8698ff; */
+	font-weight: bold;
+	text-align: center;
+	font-size: 2rem;
+}
+
+#name_container {
+	/* background-color: #edff86; */
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+	/* width: max-content; */
+	/* height: auto; */
+}
+
+#description_container {
+	/* background-color: #edff86; */
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 1vw;
+	text-align: justify;
+}
+
+#projects_row {
+	/* background-color: #b7e4b5a9; */
+	margin-top: 1vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.project_container {
+	overflow: hidden;
+	background-color: #bd3e3e60;
+	margin: 1vw;
+	padding: 0%;
+	border-radius: 5px;
+	transition: transform 0.5s ease;
+}
+
+.project {
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease;
+}
+
+.project_container:hover .project {
+	filter: blur(1px) grayscale(100%) brightness(30%);
+	transform: scale(1.5);
+	border-radius: 5px;
+	transition: transform 0.5s ease;
+}
+
+.project_title {
+	position: absolute;
+	color: #7db7e600;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.5s ease;
+	font-weight: bold;
+}
+
+.project_container:hover .project_title {
+	color: #7db7e6;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.5s ease;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.7rem;
+}
+
+.display_none {
+	display: none;
+}
+
+.feature {
+	margin: 10px;
+	border-radius: 5px;
+	width: 10%;
+	height: 25%;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+#t {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#schedule {
+	width: 40%;
+	border-radius: 5px;
+}
